@@ -9,11 +9,11 @@ assignees: sirgalleto, dafnesabrina1
 
 ## Context 
 
-__ Tell us Give us some context about your project or ideas. __ 
+__ Give us some context about your project or ideas. __ 
 
 ## Question 
 
-__ What is your concrete question? If is needed you can add information about the flight logs/datasets you're using __
+__ What is your concrete question? If is needed you can add information about the flight logs/datasets you're using and tell us what you might be having trouble with __
 
 __
 ** Don't forget add the `challengeX` tag.
