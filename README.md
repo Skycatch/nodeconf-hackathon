@@ -10,6 +10,17 @@ More about us:
 * [Skycatch High Precision Package: Mining](https://youtu.be/qpn89CkzVw8)
 * [Mining Use Case: Improving Safety and Time to Data without Sacrificing Accuracy](https://youtu.be/4ae-138g3O0)
 
+# Table of Content
+
+* [NodeConf EU Skycatch Hackathon](#nodeconf-eu-skycatch-hackathon)
+* [Challenges](#challenges)
+ * [Challenge 1: Visualizing Drone Flights in 3D](#challenge-1:-visualizing-drone-flights-in-3d)
+ * [Challenge 2: Open Challenge](#challenge-2:-open-challenge)
+* [Mentors](#mentors)
+* [Rules](#rules)
+* [Price](#price)
+* [Register](#register)
+
 # Challenges
 
 There will be two challenges for teams to choose from. Skycatch will choose one winner for each challenge based on criteria detailed below.
@@ -26,7 +37,7 @@ We want you to experiment turning this flight log into a flight path and renderi
 
 #### Input
 
-* The Challenge 1 folder will contain a CSV file with flight logs and it's documentation. This file could contain information as latitude, longitude, flight time, altitude, speed, and much more data you can get from the flight.
+* The Challenge 1 folder will contain a [CSV file](https://github.com/Skycatch/nodeconf-hackathon/tree/master/Challenge%201) with flight logs and it's documentation. This file could contain information as latitude, longitude, flight time, altitude, speed, and much more data you can get from the flight.
 * CesiumJS is an open source JavaScript library for creating world-class 3D globes and maps with the best possible performance, precision, visual quality, and ease of use.
 
 #### Useful resources 
@@ -44,11 +55,10 @@ We want you to experiment turning this flight log into a flight path and renderi
     * We're open to all new ideas to improve the interaction of the user and the map.
     * What can a machine learn from FlightPaths?
 * Pitch Document
-  * Git repository. README is appreciated. 
-  * Demo video.  Show us how it works.
+  * Git repository. (Must have README) 
+  * Demo video: take a video of your screen as you develop your app (Nice to have)
   * Document/Slides.
     * What you guys did.
-    * What you plan for the future.
 
 #### Judging Criteria
 
@@ -73,18 +83,17 @@ We already show you what we can do with a dataset, now what can you do with it?.
 
 #### Input
 
-* You will be given a folder with high quality photos
+* You will be given a [folder with high quality photos](https://github.com/Skycatch/nodeconf-hackathon/tree/master/Challenge%202)
 
 #### Deliverables
 
 * Implementation extracting useful information from dataset
 * Pitch Document
-  * Git repository. README is appreciated. 
-  * Demo video.  Show us how it works.
+  * Git repository. (Must have README) 
+  * Demo video: take a video of your screen as you develop your app (Nice to have)
   * Document/Slides.
     * Problem definition. 
     * What you guys did.
-    * What you plan for the future.
 
 #### Example
 
@@ -100,22 +109,31 @@ We already show you what we can do with a dataset, now what can you do with it?.
 
 # Mentors
 
-#### Andres Aguilar (IOS Developer in Flight1 Platform)
+#### [Andres Aguilar](https://github.com/anagac3) (IOS Developer in Flight1 Platform)
 
 * He can help with questions regarding the flightlogs 
 * Has IOS Knowledge
 
-#### Isaac Delgado (IOS Developer in Flight1 Platform)
+#### [Isaac Delgado](https://github.com/DZFX) (IOS Developer in Flight1 Platform)
 
 * He can help with questions regarding the flightlogs 
 * Has IOS Knowledge
 
-#### Luis Camargo (Full Stack Developper JS Engineer on the Edge)
+#### [Luis Camargo](https://github.com/lcamargof) (Full Stack Developer JS, Engineer on Edge)
 
-* Processing of Data
 * Any questions about JS
 
-If you need any help please create an Issue and we will contact you!
+#### [Bryan Montes](https://github.com/bryanmontesv) (Full Stack Developer, Engineer on Edge )
+
+* Can help with questions in JS 
+
+#### [Andre Deutmeyer](https://github.com/dremonkey) (Tech lead of Datahub)
+
+* Processing pipline
+* 3d Rendering
+* Datahub
+
+If you need any help please create an Issue and we will contact you or send us a slack!
 
 
 # Rules
@@ -130,6 +148,21 @@ Our team is going to choose the best submissions based on each challenge criteri
 
 * 1 submission per team/person.
 
+# Price
+
+The winners of each challenge will win a **DJI Mavic Pro**
+
 Let's hack! 
+
+# Register
+
+Please send an email to both dmedina@skycatch.com and sosorio@skycatch.com.
+
+The email should contain:
+
+* Subject: **NodeConf Skycatch Hackathon** and your names 
+* Content: The teams name and the names and emails of the team members
+
+We will be creating a slack with private channels for each team !
 
 
