@@ -69,7 +69,11 @@ We want you to experiment turning this flight log into a flight path and renderi
   * Visualization of Map.
   * Visualization of flight path.
 * 30% Creativity using the flight information. 
+  * You could add altitud values at certain point in the path of the drone
+  * You could show the direction of the drone
+  * You could show the warning at certain point in the flight
   * Be free to create! 
+  
 
 # Challenge 2 Open Challenge
 
@@ -106,6 +110,7 @@ We already show you what we can do with a dataset, now what can you do with it?.
 * 25% Business value.  
 * 30% 20% Implementation completeness.  
 * 15% Creativity.
+  * Be free to create
 
 # Mentors
 
