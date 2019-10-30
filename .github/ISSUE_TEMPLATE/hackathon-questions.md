@@ -19,3 +19,4 @@ ___
 *Dont forget to:*
 * [ ] Add challenge tag.
 * [ ] Assign a mentor. 
+* [ ] Tell us if you need a video call. 
