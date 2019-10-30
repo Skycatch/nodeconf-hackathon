@@ -115,6 +115,8 @@ We already show you what we can do with a dataset, now what can you do with it?.
 * Processing of Data
 * Any questions about JS
 
+If you need any help please create an Issue and we will contact you!
+
 
 # Rules
 
