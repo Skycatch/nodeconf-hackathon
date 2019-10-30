@@ -69,6 +69,12 @@ Do you want to see this in action? Come to our DataHub demo.
 
 We already show you what we can do with a dataset, now what can you do with it?. This is an open challenge where you can experiment, create, and innovate using the data that Skycatchs can provide you. 
 
+## Technical Details
+
+#### Input
+
+* You will be given a folder with high quality photos
+
 #### Deliverables
 
 * Implementation extracting useful information from dataset
@@ -92,6 +98,24 @@ We already show you what we can do with a dataset, now what can you do with it?.
 * 30% 20% Implementation completeness.  
 * 15% Creativity.
 
+# Mentors
+
+#### Andres Aguilar (IOS Developer in Flight1 Platform)
+
+* He can help with questions regarding the flightlogs 
+* Has IOS Knowledge
+
+#### Isaac Delgado (IOS Developer in Flight1 Platform)
+
+* He can help with questions regarding the flightlogs 
+* Has IOS Knowledge
+
+#### Luis Camargo (Full Stack Developper JS Engineer on the Edge)
+
+* Processing of Data
+* Any questions about JS
+
+
 # Rules
 
 The Hackathon will start on **Sunday, November 10**, in the Welcome Reception and will run inside the Nodeconf, where you can find people from Skycatch that can give you feedback and answer questions about the challenges.
@@ -105,4 +129,5 @@ Our team is going to choose the best submissions based on each challenge criteri
 * 1 submission per team/person.
 
 Let's hack! 
+
 
