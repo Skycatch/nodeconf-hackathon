@@ -1,0 +1,20 @@
+{
+    "altitude": 60,
+    "area_size": 56983.4609375,
+    "display_metric": true,
+    "est_num_flights": 1,
+    "flight_completed": "",
+    "flight_started": "2019-05-24_14-25-20",
+    "frontlap": 80,
+    "gimbaled_camera_present": true,
+    "location": {
+        "lat": 20.745336532592773,
+        "lon": -103.5137939453125
+    },
+    "location_name": "Zapopan",
+    "name": "Accuracy2.14.2-1.2.1",
+    "sidelap": 60,
+    "terrain_following_on": false,
+    "timezone_offset": -300,
+    "uuid": "cc1329f5-ab5a-441c-be6e-983ef826d734"
+}
