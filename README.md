@@ -14,8 +14,8 @@ More about us:
 
 * [NodeConf EU Skycatch Hackathon](#nodeconf-eu-skycatch-hackathon)
 * [Challenges](#challenges)
- * [Challenge 1: Visualizing Drone Flights in 3D](#challenge-1:-visualizing-drone-flights-in-3d)
- * [Challenge 2: Open Challenge](#challenge-2:-open-challenge)
+  * [Challenge 1: Visualizing Drone Flights in 3D](#challenge-1-visualizing-drone-flights-in-3d)
+  * [Challenge 2: Open Challenge](#challenge-2-open-challenge)
 * [Mentors](#mentors)
 * [Rules](#rules)
 * [Price](#price)
@@ -25,7 +25,7 @@ More about us:
 
 There will be two challenges for teams to choose from. Skycatch will choose one winner for each challenge based on criteria detailed below.
 
-# Challenge 1: Visualizing Drone Flights in 3D
+# Challenge 1 Visualizing Drone Flights in 3D
 
 One of the main products of the company is the Flight1 app, our iOS application for iPad that allows the users to plan and flight missions. Each mission is made up of a flight path that covers a specific area designated by the user as well as custom altitude, overlap and direction; these items will modify the speed at which the drone flies. For every flight performed a file, called Flight Log, is generated that includes information gathered during the flight about the state of the drone.
 
@@ -71,7 +71,7 @@ We want you to experiment turning this flight log into a flight path and renderi
 * 30% Creativity using the flight information. 
   * Be free to create! 
 
-# Challenge 2: Open Challenge
+# Challenge 2 Open Challenge
 
 The output of a flight is a dataset containing a high quality photos of a site. We process this output to generate 3D maps where our clients can see and analyze their sites in our DataHub application.
 
