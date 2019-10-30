@@ -1,5 +1,11 @@
 # DataSet Content
 
+The folder will contain diferent dataset from diferent drones:
+
+* EX1 is from our drone called Explore1
+* P4P is from another drone
+* Simulations are flight logs that we obtain through a virtual simulation of both of the drones above
+
 One time Headers (these only appear in the first line of the CSV):
 
 * appVersion
@@ -74,18 +80,18 @@ Hello                                                                      |  he
   /**  Auto landing mode. */                                               |  DJIFlightModeAutoLanding = 12,
  /**  GPS waypoint mode. */                                                |  DJIFlightModeGPSWaypoint = 14,
  /** Go home mode. */                                                      |  DJIFlightModeGoHome = 15,
-/**  Joystick mode */                                                      |  DJIFlightModeJoystick = 17,
+/**  Joystick mode. */                                                     |  DJIFlightModeJoystick = 17,
 /** Attitude limited mode.*/                                               |  DJIFlightModeGPSAttiWristband = 18,
-/** Draw mode  */                                                          |  DJIFlightModeDraw = 24,
+/** Draw mode.  */                                                         |  DJIFlightModeDraw = 24,
  /**  GPS follow me mode.*/                                                |  DJIFlightModeGPSFollowMe = 25,
-    /**  ActiveTrack mode.*/                                               |  DJIFlightModeActiveTrack = 26,
-    /**  TapFly mode.*/                                                    |  DJIFlightModeTapFly = 27,
-     /**  Sport mode. */                                                   |  DJIFlightModeGPSSport = 31,
-    /**  GPS Novice mode. */                                               |  DJIFlightModeGPSNovice = 32,
-   /**  Confirm landing mode.*/                                            |  DJIFlightModeConfirmLanding = 33,
+ /**  ActiveTrack mode.*/                                                  |  DJIFlightModeActiveTrack = 26,
+ /**  TapFly mode.*/                                                       |  DJIFlightModeTapFly = 27,
+ /**  Sport mode. */                                                       |  DJIFlightModeGPSSport = 31,
+ /**  GPS Novice mode. */                                                  |  DJIFlightModeGPSNovice = 32,
+ /**  Confirm landing mode.*/                                              |  DJIFlightModeConfirmLanding = 33,
  /**  The aircraft should move following the terrain.*/                    |  DJIFlightModeTerrainFollow = 35,
-     /**  Tripod mode.*/                                                   |  DJIFlightModeTripod = 38,
+ /**  Tripod mode.*/                                                       |  DJIFlightModeTripod = 38,
  /**  Active track mode, corresponds to Spotlight active track mode. */    |  DJIFlightModeActiveTrackSpotlight = 39,
-    /**  The motors are just started. */                                   |  DJIFlightModeMotorsJustStarted = 41,
-    /**  The main controller flight mode is unknown.  */                   |  DJIFlightModeUnknown = 0xFF,
+ /**  The motors are just started. */                                      |  DJIFlightModeMotorsJustStarted = 41,
+ /**  The main controller flight mode is unknown.  */                      |  DJIFlightModeUnknown = 0xFF,
 
