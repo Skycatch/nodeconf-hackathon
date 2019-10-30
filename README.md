@@ -143,7 +143,7 @@ If you need any help please create an Issue and we will contact you or send us a
 
 # Rules
 
-The Hackathon will start on **Sunday, November 10**, in the Welcome Reception and will run inside the Nodeconf, where you can find people from Skycatch that can give you feedback and answer questions about the challenges.
+The Hackathon will start on **Monday, November 4th**, you may register on that day or later on. On **Sunday,November 10th** you will be able to find people from Skycatch that can give you feedback and answer questions about the challenges at the Welcome Reception and will run inside the Nodeconf.
 
 Before **TBD**, you will be required to upload a submission of your project containing the challenge's deliverables.
 
