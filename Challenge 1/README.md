@@ -1,46 +1,91 @@
-# Challenge 1: Visualizing Drone Flights in 3D
+# DataSet Content
 
-One of the main products of the company is the Flight1 app, our iOS application for iPad that allows the users to plan and flight missions. Each mission is made up of a flight path that covers a specific area designated by the user as well as custom altitude, overlap and direction; these items will modify the speed at which the drone flies. For every flight performed a file, called Flight Log, is generated that includes information gathered during the flight about the state of the drone.
+One time Headers (these only appear in the first line of the CSV):
 
-Do you want to be more involved with the process? Come to our flight demo and see how we do flights.
+* appVersion
+* AircraftComercialName	
+* AircraftSerialNumber	
+* RemoteSerialNumber	
+* BatterySerialNumber	
+* BatteryFullCapacity	
+* dischargeCount	
+* batteryLife	
+* AircraftModel	
+* sonar_altitude	
+* isTakingVideo
 
-We want you to experiment turning this flight log into a flight path and rendering the flight path in an interactive playground.
+Regular Headers (the value in these columns are constantly being inserted during the flight)
 
-## Technical Details
+* latitude
+* longitude	
+* flight_time (in milliseconds)
+* altitude (meters, relative to takeoff point)
+* speed	(m/s)
+* satellites	
+* gps_level (signal strength)
+* pitch (degrees)
+* roll (degrees)	
+* yaw (degrees)
+* timestamp (in UTC format)
+* last_updated (when was the data last updated, in milliseconds)
+* velocityX	
+* velocityY	
+* velocityZ	
+* Isflying (1 for true, 0 for false)
+* remainBatteryPercent	
+* currentCurrent
+* batteryChargeRemaining	
+* batteryVoltage	
+* batteryTemperature	
+* flightMode	(this is an integer, belonging to the enumeration described below)
+* Istakingphoto (1 for true, 0 for false)
+* downlinkSignal	
+* uplinkSignal	
+* radioChannel	
+* rc_elevator	
+* rc_aileron	
+* rc_throttle	
+* rc_rudder	
+* Battery_Cell1 (The voltage of cell 1 - in volts*1000)
+* Battery_Cell2	
+* Battery_Cell3	
+* Battery_Cell4	
+* Battery_Cell5	
+* Battery_Cell6	
+* gimbalPitch	
+* gimbalYaw	
+* gimbalRoll	
+* app_Tip  (Used for optionally describe the status of the mission)
+* app_Warning (Used for reporting errors, either custom or reported by DJI)
 
-#### Input
+Flight Modes
 
-* We're going to publish a flight log (CSV) when the Hackathon starts. This file could contain information as latitude, longitude, flight time, altitude, speed, and much more data you can get from the flight.
-* CesiumJS is an open source JavaScript library for creating world-class 3D globes and maps with the best possible performance, precision, visual quality, and ease of use.
+Hello                                                                      |  hello
+---------------------------------------------------------------------------|----------------------------------------
+ /** Manual mode. */                                                       |  DJIFlightModeManual = 0
+ /** Attitude mode. */                                                     |  DJIFlightModeAtti = 1,
+/**  Attitude course lock mode.  */                                        |  DJIFlightModeAttiCourseLock = 2,
+/**  GPS Attitude mode. */                                                 |  DJIFlightModeGPSAtti = 6,
+/** GPS course lock mode. */                                               |  DJIFlightModeGPSCourseLock = 7,
+/** GPS Home mode.*/                                                       |  DJIFlightModeGPSHomeLock = 8,
+/** GPS hot point mode.*/                                                  |  DJIFlightModeGPSHotPoint = 9,
+ /**  Assisted takeoff mode.*/                                             |  DJIFlightModeAssistedTakeoff = 10,
+/**  Auto takeoff mode.*/                                                  |  DJIFlightModeAutoTakeoff = 11,
+  /**  Auto landing mode. */                                               |  DJIFlightModeAutoLanding = 12,
+ /**  GPS waypoint mode. */                                                |  DJIFlightModeGPSWaypoint = 14,
+ /** Go home mode. */                                                      |  DJIFlightModeGoHome = 15,
+/**  Joystick mode */                                                      |  DJIFlightModeJoystick = 17,
+/** Attitude limited mode.*/                                               |  DJIFlightModeGPSAttiWristband = 18,
+/** Draw mode  */                                                          |  DJIFlightModeDraw = 24,
+ /**  GPS follow me mode.*/                                                |  DJIFlightModeGPSFollowMe = 25,
+    /**  ActiveTrack mode.*/                                               |  DJIFlightModeActiveTrack = 26,
+    /**  TapFly mode.*/                                                    |  DJIFlightModeTapFly = 27,
+     /**  Sport mode. */                                                   |  DJIFlightModeGPSSport = 31,
+    /**  GPS Novice mode. */                                               |  DJIFlightModeGPSNovice = 32,
+   /**  Confirm landing mode.*/                                            |  DJIFlightModeConfirmLanding = 33,
+ /**  The aircraft should move following the terrain.*/                    |  DJIFlightModeTerrainFollow = 35,
+     /**  Tripod mode.*/                                                   |  DJIFlightModeTripod = 38,
+ /**  Active track mode, corresponds to Spotlight active track mode. */    |  DJIFlightModeActiveTrackSpotlight = 39,
+    /**  The motors are just started. */                                   |  DJIFlightModeMotorsJustStarted = 41,
+    /**  The main controller flight mode is unknown.  */                   |  DJIFlightModeUnknown = 0xFF,
 
-#### Useful resources 
-
-* [Cesium sandcastle playground](https://sandcastle.cesium.com)
-* [AirData](https://airdata.com/)
-* [DroneLogBook](https://www.dronelogbook.com/hp/1/index.html)
-
-#### Deliverables
-
-* Implementation
-  * Flight path rendered in Cesium in 3D
-  * Nice to have  
-    * Display additional information from flight log
-    * We're open to all new ideas to improve the interaction of the user and the map.
-    * What can a machine learn from FlightPaths?
-* Pitch Document
-  * Git repository. README is appreciated. 
-  * Demo video.  Show us how it works.
-  * Document/Slides.
-    * What you guys did.
-    * What you plan for the future.
-
-#### Judging Criteria
-
-* 40% Use of JS related technologies. 
-  * Cesium
-  * Use of the logs. 
-* 30% Implementation completeness. 
-  * Visualization of Map.
-  * Visualization of flight path.
-* 30% Creativity using the flight information. 
-  * Be free to create! 
