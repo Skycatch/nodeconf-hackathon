@@ -166,7 +166,7 @@ Please send an email to both dmedina@skycatch.com and sosorio@skycatch.com.
 The email should contain:
 
 * Subject: **NodeConf Skycatch Hackathon** and your names 
-* Content: The teams name and the names and emails of the team members
+* Content: The teams name and emails of the team members
 
 We will be creating a slack with private channels for each team !
 
