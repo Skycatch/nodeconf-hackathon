@@ -145,7 +145,7 @@ If you need any help please create an Issue and we will contact you or send us a
 
 The Hackathon will start on **Monday, November 4th**, you may register on that day or later on. On **Sunday,November 10th** you will be able to find people from Skycatch that can give you feedback and answer questions about the challenges at the Welcome Reception and will run inside the Nodeconf.
 
-Before **TBD**, you will be required to upload a submission of your project containing the challenge's deliverables.
+Before **TBD**, you will be required to send an email to both dmedina@skycatch.com and sosorio@skycatch.com with the submission of your project containing the challenge's deliverables.
 
 Our team is going to choose the best submissions based on each challenge criteria, and the winner of each category will win a **DJI Mavic Pro**; that will be announced by **TBD**. 
 
