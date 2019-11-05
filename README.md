@@ -132,12 +132,6 @@ We already show you what we can do with a dataset, now what can you do with it?.
 
 * Can help with questions in JS 
 
-#### [Andre Deutmeyer](https://github.com/dremonkey) (Tech lead of Datahub)
-
-* Processing pipline
-* 3d Rendering
-* Datahub
-
 If you need any help please create an Issue and we will contact you or send us a slack!
 
 
